@@ -4,3 +4,4 @@ from .models import *
 admin.site.register(SkillDetail)
 admin.site.register(AdditionalSkills)
 admin.site.register(Experience)
+admin.site.register(WorkDetails)
