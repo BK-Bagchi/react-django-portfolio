@@ -1,0 +1,5 @@
+# dependencies
+/react_portfolio/node_modules
+
+# production
+/react_portfolio/build
