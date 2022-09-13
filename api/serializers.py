@@ -12,3 +12,9 @@ class AdditionalSkillsSerializer(serializers.ModelSerializer):
     class Meta:
         model = AdditionalSkills
         fields = '__all__'
+
+
+class ExperienceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Experience
+        fields = '__all__'

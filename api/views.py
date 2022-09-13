@@ -20,6 +20,12 @@ def getAdditionalSkills(request):
     return Response(serializer.data)
 
 
+@api_view(['GET'])
+def getExperience(request):
+    experience = Experience.objects.all()
+    serializer = ExperienceSerializer(experience, many=True)
+    return Response(serializer.data)
+
 # @api_view(['POST'])
 # def addItem(request):
 #     serializer = ItemSerializer(data=request.data)
