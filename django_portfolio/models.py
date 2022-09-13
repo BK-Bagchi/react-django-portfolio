@@ -20,7 +20,7 @@ class Experience(models.Model):
     companyName = models.CharField(max_length=50)
     companyLocation = models.CharField(max_length=50)
     position = models.CharField(max_length=50)
-    durationForm = models.CharField(max_length=50)
+    durationFrom = models.CharField(max_length=50)
     durationTo = models.CharField(max_length=50)
 
     def __str__(self):
