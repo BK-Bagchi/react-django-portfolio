@@ -18,3 +18,9 @@ class ExperienceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Experience
         fields = '__all__'
+
+
+class WorkDetailsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = WorkDetails
+        fields = '__all__'
