@@ -3,8 +3,8 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-REACT_APP_DIR = os.path.join(BASE_DIR, 'react_portfolio/build')
-STATIC_FILES_DIR = os.path.join(BASE_DIR, 'react_portfolio/build/static')
+# REACT_APP_DIR = os.path.join(BASE_DIR, 'react_portfolio/build')
+# STATIC_FILES_DIR = os.path.join(BASE_DIR, 'react_portfolio/build/static')
 
 
 # Quick-start development settings - unsuitable for production
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'react_django_portfolio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [REACT_APP_DIR],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -117,9 +117,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [
-    STATIC_FILES_DIR
-]
+# STATICFILES_DIRS = [
+#     STATIC_FILES_DIR
+# ]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
