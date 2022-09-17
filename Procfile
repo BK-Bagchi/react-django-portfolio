@@ -1,1 +1,1 @@
-web: gunicorn myproject.wsgi
+web: gunicorn react_django_portfolio.wsgi
